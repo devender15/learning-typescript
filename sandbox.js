@@ -1,13 +1,42 @@
-var character = "Devender";
-var age = 30;
-var isBlackBelt = false;
+// let character = "Devender";
+// let age = 30;
+// let isBlackBelt = false;
 // we cannot change the value type of the variables
 // age = "30";
 // isBlackBelt = "yes";
-isBlackBelt = true;
+// isBlackBelt = true; 
 // const inputs = document.querySelectorAll("input");
 // console.log(inputs);
-var circ = function (diameter) {
-    return diameter * Math.PI;
+// const circ = (diameter: number) => {
+//     return diameter * Math.PI;
+// }
+// console.log(circ(5));
+// Array
+var names = ["Devender", "Kumar", "Singh"];
+// names = 23;
+// names = "Dev";
+names.push("Pal");
+// names.push(4);
+// names[0] = 3.2;
+var numbers = [10, 20, 30, 40];
+numbers.push(25);
+// numbers.push("Devender");
+var mixed = ["Devender", 30, "Kumar", 40, true];
+mixed.push(50);
+mixed.push("Singh");
+mixed.push(false);
+// Objects
+var ninja = {
+    name: "Devender",
+    belt: "Black",
+    age: 30
 };
-console.log(circ(5));
+ninja.age = 40;
+// ninja.age = '40';
+ninja.name = "Devender";
+// ninja.skills = ["React", "Python", "django", "CSS", "JavaScript", "TypeScript"];
+ninja = {
+    name: "Devender",
+    belt: "Black",
+    age: 30
+};
