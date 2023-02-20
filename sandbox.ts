@@ -105,4 +105,14 @@ ninjaTwo = {
     beltColor: "Black",
 }
 
-ninjaTwo.name = "Jay";
+ninjaTwo.name = "Jay"
+
+
+
+// Dynamic (any) types
+let age2: any = 25;
+age2 = true;
+age2 = "string";
+age2 = { name: 'Dev', age: 30 };
+
+let mixed2: any[] = [];

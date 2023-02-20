@@ -77,3 +77,9 @@ ninjaTwo = {
     beltColor: "Black"
 };
 ninjaTwo.name = "Jay";
+// Dynamic (any) types
+var age2 = 25;
+age2 = true;
+age2 = "string";
+age2 = { name: 'Dev', age: 30 };
+var mixed2 = [];
