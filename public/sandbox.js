@@ -1,3 +1,4 @@
+"use strict";
 // let character = "Devender";
 // let age = 30;
 // let isBlackBelt = false;
@@ -42,9 +43,9 @@
 //     // skills: []
 // }
 // expicit types
-var character;
-var age;
-var isLoggedIn;
+let character;
+let age;
+let isLoggedIn;
 // character = 5;
 character = "Dev";
 // age = "Devender";
@@ -52,34 +53,34 @@ age = 30;
 // isLoggedIn = 1;
 isLoggedIn = false;
 // arrays
-var ninjas = [];
+let ninjas = [];
 // ninjas = [1,2,3];
 // ninjas = ["Devender", "Kumar", "Singh"];
 ninjas.push("Dev");
 // union types
-var mixed = [];
+let mixed = [];
 mixed.push("Dev");
 mixed.push(19);
 mixed.push(true);
 // objects
-var ninjaOne;
+let ninjaOne;
 ninjaOne = {
     name: "Devender",
-    age: 30
+    age: 30,
 };
 // ninjaOne.name = "Dev";
 // ninjaOne.age = 30;
 // ninjaOne = [];
-var ninjaTwo;
+let ninjaTwo;
 ninjaTwo = {
     name: "Devender",
     age: 30,
-    beltColor: "Black"
+    beltColor: "Black",
 };
 ninjaTwo.name = "Jay";
 // Dynamic (any) types
-var age2 = 25;
+let age2 = 25;
 age2 = true;
 age2 = "string";
 age2 = { name: 'Dev', age: 30 };
-var mixed2 = [];
+let mixed2 = [];
